@@ -10,15 +10,14 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-    <Header/>
+    <Header title="Home" color='blue'/>
     <Navbar/>
-    <Main/>
+    <Main text='Pagina main'/>
     <Aside />
     <Footer />
     </div>
   )
 }
-
 export default Home
 
 

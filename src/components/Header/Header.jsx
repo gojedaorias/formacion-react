@@ -1,9 +1,12 @@
 import './Header.css'
 
 
-const Header = () => {
+const Header = ({title,color}) => {
   return (
-    <div className='header'>Header</div>
+    <div className={color}>
+
+      <h1>{title} page</h1>
+    </div>
   )
 }
 
